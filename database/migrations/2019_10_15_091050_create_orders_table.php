@@ -19,6 +19,7 @@ class CreateOrdersTable extends Migration
             $table->text('title');
             $table->text('description');
             $table->double('cost', 8, 2);
+            $table->integer('status')->default(1);
             $table->timestamps();
         });
     }
