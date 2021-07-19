@@ -17,7 +17,7 @@ Below I will describe all the new features added
 1-) Customers now are devided into two sections
     
     a-) Active customers (To do this i added a status field in the database to track the customer status)
-    b-) Innactive customers
+    b-) Innactive customers that can be enabled by the enable feature
     
    If a customer is innactive all its orders now automaticalle are set to innactive and if the user is activated again so do the orders
    Customers can also be deleted as I did not remove this feature and all the orders are deleted on cascade 
